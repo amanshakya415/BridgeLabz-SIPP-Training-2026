@@ -1,16 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class Node {
-    int val;
-    Node left;
-    Node right;
-
-    Node(int val) {
-        this.val = val;
-    }
-}
-
 public class LatencyPercentileReporter {
     public int kthSmallest(Node root, int k) {
         Deque<Node> stack = new ArrayDeque<>();

@@ -1,16 +1,16 @@
-class Node {
+class node {
     int val;
-    Node left;
-    Node right;
+    node left;
+    node right;
 
-    Node(int val) {
+    node(int val) {
         this.val = val;
     }
 }
 
 public class UsernameDirectorySearch {
-    public boolean search(Node root, int target) {
-        Node current = root;
+    public boolean search(node root, int target) {
+        node current = root;
         while (current != null) {
             if (target == current.val) {
                 return true;

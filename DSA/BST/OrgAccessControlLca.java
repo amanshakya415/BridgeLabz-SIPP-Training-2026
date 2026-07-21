@@ -1,13 +1,3 @@
-class Node {
-    int val;
-    Node left;
-    Node right;
-
-    Node(int val) {
-        this.val = val;
-    }
-}
-
 public class OrgAccessControlLca {
     public Node lowestCommonAncestor(Node root, int p, int q) {
         Node current = root;

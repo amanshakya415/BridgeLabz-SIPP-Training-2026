@@ -1,13 +1,3 @@
-class Node {
-    int val;
-    Node left;
-    Node right;
-
-    Node(int val) {
-        this.val = val;
-    }
-}
-
 public class PricingIndexAudit {
     public boolean isValidBST(Node root) {
         return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
